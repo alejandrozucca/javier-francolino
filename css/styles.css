@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	font-family: "Lato", sans-serif;
+	font-family: "Open-Sans", sans-serif;
 }
 
 h1 {
@@ -155,7 +155,7 @@ section p, section li{
 }
 
 .content-black {
-	background-color: #222222;
+	background-color: #333333;
 	color: white;
 }
 

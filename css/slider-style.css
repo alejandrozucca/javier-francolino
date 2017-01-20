@@ -27,7 +27,9 @@
 	list-style: none;
 }
 
-.slider img {	
+.slider img {
+	margin: 0;
+	padding: 0;
 	width: 100%;
 }
 
