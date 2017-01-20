@@ -1,0 +1,310 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lato", sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+#logoContainer  {	
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 60%;
+	height:100%;
+	max-height: 700px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.content-side {
+	float: left;
+	margin: 0;
+	padding: 0;
+	max-width: 65%;
+}
+
+#logo {
+	width: 100%;
+	height: 50%;
+	margin-top: 5%;
+	padding: 2% 0 2% 2%;
+	background-color: rgba(50,50,50,0.7);
+	background: linear-gradient(to right, rgba(50,50,50,0.75) , rgba(50,50,50,0));
+}
+
+#logo img {
+	float: left;
+	height: 100%;
+	width: auto;
+}
+
+#logo h1 {
+	text-align: left;
+	vertical-align: text-top;
+	margin: 0;
+	padding: 0;
+	margin-left: 2%;
+	color: white;
+	font-size: 4vw;
+}
+
+#logo h2 {
+	margin: 0;
+	margin-left: 2%;
+	color: white;
+	font-size: 3vw;
+}
+
+header {
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	background-color: #222222;
+	border-bottom: 1px solid #444444;
+}
+
+header nav {
+	padding: 0;
+	width: 60%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;		
+}
+
+.fix-nav {
+	position: fixed;
+	top: 0;	
+}
+
+.menuBar {
+	padding: 0;
+	margin: 0;
+	display: none;
+}
+
+.buttonMenu img {
+	width: 40px;
+	height: 40px;
+}
+
+header nav ul {
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+	width: 20%;
+}
+
+header nav ul li a {
+	display: block;
+	padding: 20px 0px 20px 0;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+}
+
+section {
+	overflow: auto;
+	width: 100%;
+	margin: 0px;
+	clear: both;
+}
+
+section p, section li{
+	line-height: 40px;
+}
+
+.contentInner {
+	overflow: auto;
+	width: 60%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;	
+	clear: both;
+}
+
+.content-half {	
+	border: none;
+	float: left;
+	width: 50%;
+}
+
+.contentInner img {
+	width: 100%;
+}
+
+.content-half li {
+	text-align: left;
+}
+
+.content-white {
+	background-color: white;
+	color: #222222;
+}
+
+.content-black {
+	background-color: #222222;
+	color: white;
+}
+
+section p, section li {
+	font-size: 20px;	
+}
+
+.center {
+	text-align: center;
+}
+
+.card {
+	margin: 1%;
+	width: 30%;
+	background-color: #AAAAAA;
+	border-radius: 2px;
+	float: left;
+	vertical-align: text-top;
+	height: 300px;
+	overflow: hidden;
+}
+
+.card p, .card h3 {
+	margin: 10px;
+}
+
+.card-top {
+	height: 100px;
+}
+
+.card-bottom {
+	bottom: 0;
+	width: 100%;
+}
+
+.card-bottom img {
+	width: auto;
+	height: 100%;
+}
+
+#googleMap {
+	height:300px;
+	z-index: 0;
+	filter:grayscale(90%);
+	-webkit-filter:grayscale(90%);
+}
+
+@media screen and (max-width:885px) {
+	
+	header nav {		
+		width: 60%;
+		height: 1000px;
+		left: -100%;
+		margin: 0;
+		margin-top: 1px;
+		position: absolute;
+		background-color: black;
+	}
+	
+	header nav ul {
+		margin: 0px;
+		
+		padding: 0px;
+		height: 100%;
+	}
+
+	header nav ul li {	
+		width: 100%;
+		display: block;
+		float: none;	
+		padding: 10px 20px;
+		border-bottom: 1px solid #444444;
+	}
+	
+	header nav ul li a {
+		text-align: left;
+	}
+	
+	#logoContainer {
+		width: 100%;
+	}
+	
+	#logo {
+		width: 100%;
+		height: 90%;
+		margin: 0;
+		padding: 2%;
+	}
+	
+	#logo h1 {
+		font-size: 7.4vw;
+	}
+
+	#logo h2 {
+		margin: 0;
+		margin-left: 2%;
+		color: white;
+		font-size: 4vw;
+	}
+	
+	.menuBar{
+		display: block;
+		width: 100%;
+		background-color: #222222;
+	}
+	
+	.menuBar .buttonMenu {
+		display: block;
+		padding: 20px;
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 25px;
+	}
+			
+	.contentInner {
+		width: 90%;
+	}
+	
+	.content-half {
+		width: 100%;
+	}
+	
+	#architecture img, #gas img {
+		display: none;
+	}
+	
+	#architecture{
+		overflow: hidden;
+		background-image: url(../pictures/architectureCopy.jpg);
+		background-repeat: no-repeat;
+		background-position: top right;		
+	}
+	
+	#gas{
+		overflow: hidden;
+		background-image: url(../pictures/gasCopy.jpg);
+		background-repeat: no-repeat;
+		background-position: -10px 110%;
+		background-size: 50% 70%;
+	}
+	
+	.card {
+		min-width: 250px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+			
+}
